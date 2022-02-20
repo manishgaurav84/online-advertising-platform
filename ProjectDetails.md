@@ -3,8 +3,8 @@
 - The platform will have an interface for campaign managers to run the Ad campaign and another interface for the 
 client to present the Ads and send the user action back to the advertising platform.
 - Through the campaign manager, the Ad instructions (New Ad Campaign, Stopping the existing Ad campaign) will be 
-published to a Kafka Queue. The ‘Ad Manager’ will read the message from that Kafka queue and update the MySQL store
-accordingly.
+published to a Kafka Queue. The ‘Ad Manager’ will read the message from that Kafka queue and update the MySQL 
+store accordingly.
 - An Ad Server will hold the auction of Ads for displaying the Ad to a user device. The auction winner will pay the
 amount bid by the second Ad. A user simulator will hit the Ad Server API for displaying Ads and send the user
 interaction feedback back to the feedback handler through API.
