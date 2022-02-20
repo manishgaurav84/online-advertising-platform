@@ -5,4 +5,4 @@ With increasing digitisation, there has been a tremendous boom in the field of o
 more and more companies are willing to pay large amounts of money in order to reach the customers via 
 online platform. 
 
-![HLD  diagram]("high-level-design.png")
+![HLD  diagram](https://github.com/manishgaurav84/online-advertising-platform/blob/master/high-level-design.png)
